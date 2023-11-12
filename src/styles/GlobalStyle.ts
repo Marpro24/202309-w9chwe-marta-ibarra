@@ -8,11 +8,11 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-
-
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./images/background.webp);
+  background-attachment: fixed;
 }
+
 ul,
 li {
   margin: 0;
