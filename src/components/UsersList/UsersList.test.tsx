@@ -6,8 +6,8 @@ import UsersList from "./UsersList";
 
 describe("Given a Homepage ocmonent", () => {
   describe("When it is renered and receives a list of people", () => {
-    test("Then it should show a users list with Ambrosius' name in the first heading", () => {
-      const expectedName = "Ambrosius";
+    test("Then it should show a users list with Goblin King name in the first heading", () => {
+      const expectedName = "Goblin King";
 
       render(
         <BrowserRouter>

@@ -6,9 +6,9 @@ import mainTheme from "../../styles/mainTheme";
 import mockUser from "../../mocks/userMock";
 
 describe("Given a UserCard component", () => {
-  describe("When it receives Ambrosius card", () => {
-    test("Then it should show Ambrosius in a heading", () => {
-      const userNameCard = "Ambrosius";
+  describe("When it receives Goblin King card", () => {
+    test("Then it should show Goblin King in a heading", () => {
+      const userNameCard = "Goblin King";
 
       render(
         <BrowserRouter>
