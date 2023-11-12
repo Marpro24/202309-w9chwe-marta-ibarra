@@ -1,8 +1,8 @@
 const mockUsers = [
   {
     id: 1,
-    name: "Ambrosius",
-    world: "human",
+    name: "Goblin King",
+    world: "Labyrinth",
     isFriend: true,
     image:
       "https://raw.githubusercontent.com/Marpro24/202309-api-labyrinth/main/images/id1.webp",
