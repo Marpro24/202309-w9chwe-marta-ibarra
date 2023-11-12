@@ -5,3 +5,7 @@ export interface User {
   isFriend: boolean;
   image: string;
 }
+
+export interface UsersStructure {
+  user: User[];
+}
