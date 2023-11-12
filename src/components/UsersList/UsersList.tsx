@@ -15,4 +15,5 @@ const UsersList = (): React.ReactElement => {
     </UsersListStyled>
   );
 };
+
 export default UsersList;
