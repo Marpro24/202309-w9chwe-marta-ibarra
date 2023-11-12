@@ -6,7 +6,7 @@ const initialUsersState: UsersStructure = {
   user: [],
 };
 
-const usersSlice = createSlice({
+export const usersSlice = createSlice({
   name: "users",
   initialState: initialUsersState,
   reducers: {
