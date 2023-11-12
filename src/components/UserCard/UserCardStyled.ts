@@ -8,7 +8,6 @@ const UserCardStyled = styled.div`
   border: solid;
   border-radius: 30px;
   border-color: #fff;
-  margin: 20px;
   background-color: #e99441;
 
   .user-container {
@@ -23,7 +22,9 @@ const UserCardStyled = styled.div`
   }
 
   .user__image {
-    object-fit: contain;
+    object-fit: cover;
+    width: 200px;
+    height: auto;
   }
 
   .user__world {

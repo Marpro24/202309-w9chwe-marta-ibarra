@@ -4,7 +4,8 @@ const UsersListStyled = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  padding: 20px 10px;
 `;
 
 export default UsersListStyled;
