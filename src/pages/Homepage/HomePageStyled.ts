@@ -7,6 +7,12 @@ const HomepageStyled = styled.main`
     align-items: center;
     gap: 10px;
     padding: 20px;
+    background-color: #e99441;
+    border-radius: 30px;
+    border: solid;
+    border-color: #fff;
+    position: fixed;
+    width: 100%;
   }
 `;
 

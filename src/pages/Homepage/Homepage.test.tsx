@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { BrowserRouter } from "react-router-dom";
 import { render, screen } from "@testing-library/react";
-import mainTheme from "../styles/mainTheme";
+import mainTheme from "../../styles/mainTheme";
 import Homepage from "./Homepage";
 
 describe("Given a Homepage component", () => {
