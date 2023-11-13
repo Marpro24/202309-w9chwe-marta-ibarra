@@ -1,25 +1,17 @@
-import { ThemeProvider } from "styled-components";
-import { BrowserRouter } from "react-router-dom";
-import { render, screen } from "@testing-library/react";
-import mainTheme from "../../styles/mainTheme";
+import { screen } from "@testing-library/react";
+import { customRenderWithProviders } from "../../testUtils/customRender";
+import mockUsers from "../../mocks/usersMocks";
 import Homepage from "./Homepage";
 
 describe("Given a Homepage component", () => {
   describe("When it is rendered ", () => {
     test("Then it should show 'Welcome to the Labyrinth'", () => {
       const expectedTitle = "Welcome to the Labyrinth";
+      const mockData = mockUsers;
 
-      render(
-        <BrowserRouter>
-          <ThemeProvider theme={mainTheme}>
-            <Homepage />
-          </ThemeProvider>
-        </BrowserRouter>,
-      );
-
+      customRenderWithProviders(<Homepage />, mockData);
       const title = screen.getByRole("heading", {
         name: expectedTitle,
-        hidden: true,
       });
 
       expect(title).toBeInTheDocument();
